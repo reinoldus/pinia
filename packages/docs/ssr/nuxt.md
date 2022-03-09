@@ -27,7 +27,7 @@ export default {
 }
 ```
 
-And that's it, use your store as usual!
+And that's it, use your store as usual! Be aware that Vuex will be **disabled** by default, if you still need Vuex [the context](https://pinia.vuejs.org/ssr/nuxt.html#using-pinia-alongside-vuex)!
 
 ## Using the store outside of `setup()`
 
